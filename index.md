@@ -64,7 +64,7 @@ Using the `cat` command with a directory path as an argument is not valid, and i
 
 When the `cat` command is used with a file path as an argument, it reads the content of the specified file and presents that content on the terminal. In this specific case, we provided the path to the text file `Hello.java` as the argument to the `cat` command, which then proceeded to read the text within that file and display the text:
 
-
+```
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -76,7 +76,7 @@ public class Hello {
     System.out.println(content);
   }
 
-  
+  ```
  on the terminal. The `cat` command displays the content line by line, exactly as it appears in the file, with no additional formatting or content alterations.
 
 Importantly, the `cat` command does not alter the current working directory; it remains the same before and after executing the command. This is because the command is solely designed for reading and displaying the content of files and does not involve any directory navigation. It operates exclusively on the specified files, making it a useful tool for examining and displaying file content.
