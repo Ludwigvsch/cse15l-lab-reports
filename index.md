@@ -18,7 +18,7 @@ The `cd` command, short for "Change Directory," is used to alter the current wor
 
 **Working Directory**: The working directory in the screenshot is /home/lecture1/. We are also switching between the home directory and /home/lecture1/ directory in the screenshot.
 
-**Output**: The output is not an error.
+**Output**: The output is not an error. It is basically just changing the dirctory.
 
 When the command `cd` is used with an argument which in this case is first a relative path `lecture1/` we can observe that the working directory changes to the absolute path `/home/lecture1/`. The same happens if we use the command `cd` with the absolute path `/home/lecture1/` which we can use from any working directory as shown in line 4. The command `cd` alone used in the third line just changes our current directory back to our home directory as descibed above.
 
