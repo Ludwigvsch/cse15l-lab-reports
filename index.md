@@ -4,9 +4,11 @@
 
 ![Screenshot 2023-10-08 at 7 16 29 PM](https://github.com/Ludwigvsch/cse15l-lab-reports/assets/51019288/c507ab1d-1eeb-47e3-9be3-14271bd3e0b9)
 
-**Working Directory**: The working directory was not specified in the screenshot, but when cd is run without arguments, it typically returns to the user's home directory.
+<img width="407" alt="Screenshot 2023-10-20 at 4 09 23 PM" src="https://github.com/Ludwigvsch/cse15l-lab-reports/assets/51019288/25cd4d59-d6d6-4062-857f-beadfc513893">
 
-**Output**: The output is not an error. It's the standard behavior of the cd command when used without arguments.
+**Working Directory**: The working directory is home in the first screenshot and /home/lecture1/ in the scond screenshot. When cd is run without arguments, it typically returns to the user's home directory.
+
+**Output**: The output is not an error. It's the standard behavior of the cd command when used without arguments. It bascially just returns to the home directory
 
 The `cd` command, short for "Change Directory," is used to alter the current working directory in a shell or command prompt session. When used without any arguments, it defaults to changing the directory to the user's home directory, providing a convenient way to return to the starting directory associated with their user account in a terminal.
 
