@@ -26,7 +26,7 @@ When the command `cd` is used with an argument which in this case is first a rel
 
 ![Screenshot 2023-10-09 at 2 48 58 PM](https://github.com/Ludwigvsch/cse15l-lab-reports/assets/51019288/1ee81821-16f4-4481-bdcd-9f021a68ddb4)
 
-**Working Directory**: The working directory in the screenshot is the home directory.
+**Working Directory**: The working directory in the screenshot is the home/lecture1/ directory.
 
 **Output**: The output is an error. The problem here is that we are trying to navigate to a file instead of to a directory. The command cd can only change to a directory and not to a file.
 
