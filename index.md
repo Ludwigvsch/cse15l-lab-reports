@@ -86,7 +86,9 @@ This option locates files by their name.
 
  	find ./technical -type f -iname ar615.txt
 	> ./technical/biomed/ar615.txt
-The first example searches for files named exactly "ar422.txt". The second uses -iname for a case-insensitive search, which is useful when the exact case of the filename is unknown​​.
+ 
+The first example searches for files named exactly "ar422.txt". 
+The second uses -iname for a case-insensitive search, which is useful when the exact case of the filename is unknown​​.
 
 **2. Find Files by Modification Time (-mtime)**
 This option allows you to find files based on when they were last modified.
