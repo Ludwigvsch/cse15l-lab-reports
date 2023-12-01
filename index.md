@@ -9,7 +9,7 @@ Key Pressed
 <up><enter>
 ```
 
-The ssh cs15lfa23hf@ieng.ucsd.edu command was 1 up in the search history of my terminal, hence I used the up arrow key to access it.
+The ssh cs15lfa23hf@ieng.ucsd.edu command was 1 up in the search history of my terminal, hence I used the up arrow key to access it. It basically just connects to the server int my specific account online automatically since my key is saved on it.
 
 **Step 5**
 
@@ -21,7 +21,7 @@ Key Pressed
 git clone <Command-V><enter>
 ```
 
-I copied the ssh url from my forked repository and paste the url into my terminal.
+I copied the ssh url from my forked repository and paste the url into my terminal. This clones the repository into my account on the server.
 
 **Step 6**
 
