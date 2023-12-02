@@ -44,13 +44,12 @@ Then run the test with bash and type t and tab to auto complete the filename tes
 Key Pressed
 ```
 vim L<tab>.j<tab><enter>
-43j11lxi2<esc>:wq<enter>
+:44<enter>11lr2:wq<enter>
 ```
 I opened vim editor using vim and the filename. Typing L and tab auto complete the filename, since there are two files that have similar filename, I type another . and j and tab to auto complete again.
 :44 to go directly to line 44
-11l moveR cursor right 11 characters
+11l move cursor right 11 characters
 r to replace the 1 with 2
-press ```<esc>``` to enter normal mode
 type :wq and ```<enter>```to save the file and quit
 
 **Step 8**
